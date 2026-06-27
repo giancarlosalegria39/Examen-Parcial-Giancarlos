@@ -1,0 +1,88 @@
+[
+  {
+    "ruc": "10456789012",
+    "nombre_comercio": "Bodega La Esquina de Don Mario",
+    "tipo": "bodega",
+    "propietario": "Mario Quispe Condori",
+    "distrito": "San Juan de Lurigancho",
+    "departamento": "Lima",
+    "calificacion": 4.2,
+    "yape_activo": true,
+    "monto_mensual_soles": 4500.0,
+    "categorias": ["abarrotes", "bebidas", "snacks"],
+    "horario": { "apertura": "06:00", "cierre": "22:00" },
+    "acepta_delivery": false
+  },
+  {
+    "ruc": "20512345678",
+    "nombre_comercio": "Cevichería El Muelle SAC",
+    "tipo": "restaurante",
+    "representante_legal": "Ana Flores Rojas",
+    "distrito": "Miraflores",
+    "departamento": "Lima",
+    "calificacion": 4.8,
+    "yape_activo": true,
+    "monto_mensual_soles": 28000.0,
+    "carta": [
+      { "plato": "Ceviche clásico", "precio": 28.0 },
+      { "plato": "Leche de tigre", "precio": 18.0 },
+      { "plato": "Tiradito", "precio": 32.0 }
+    ],
+    "capacidad_mesas": 45,
+    "num_empleados": 12,
+    "horario": { "apertura": "12:00", "cierre": "17:00" },
+    "acepta_delivery": true,
+    "plataformas_delivery": ["Rappi", "PedidosYa"]
+  },
+  {
+    "ruc": "10789012345",
+    "nombre_comercio": "Farmacia San Pablo Express",
+    "tipo": "farmacia",
+    "propietario": "Carlos Mendoza Ríos",
+    "distrito": "Los Olivos",
+    "departamento": "Lima",
+    "calificacion": 4.5,
+    "yape_activo": true,
+    "monto_mensual_soles": 12000.0,
+    "productos_destacados": ["paracetamol", "ibuprofeno", "vitaminas"],
+    "horario": { "apertura": "07:00", "cierre": "23:00" },
+    "venta_con_receta": true,
+    "codigo_digemid": "F-2023-00456",
+    "acepta_delivery": true
+  },
+  {
+    "ruc": "10234567891",
+    "nombre_comercio": "Taxi Express — Luis Tapia",
+    "tipo": "taxi",
+    "propietario": "Luis Tapia Salcedo",
+    "distrito": "Callao",
+    "departamento": "Lima",
+    "calificacion": 4.0,
+    "yape_activo": true,
+    "monto_mensual_soles": 3200.0,
+    "vehiculo": {
+      "placa": "ABC-123",
+      "modelo": "Toyota Yaris 2022",
+      "capacidad": 4
+    },
+    "zonas_cobertura": ["Callao", "Bellavista", "La Perla", "Miraflores"],
+    "acepta_delivery": false
+  },
+  {
+    "ruc": "20987654321",
+    "nombre_comercio": "Distribuidora Norte SAC",
+    "tipo": "empresa",
+    "representante_legal": "Patricia Luna Torres",
+    "distrito": "Independencia",
+    "departamento": "Lima",
+    "calificacion": 3.9,
+    "yape_activo": true,
+    "monto_mensual_soles": 85000.0,
+    "num_empleados": 45,
+    "sectores": ["abarrotes", "limpieza", "bebidas"],
+    "clientes_mayoristas": 230,
+    "horario": { "apertura": "08:00", "cierre": "18:00" },
+    "acepta_delivery": true,
+    "zonas_despacho": ["Lima Norte", "Lima Centro"]
+  }
+]
